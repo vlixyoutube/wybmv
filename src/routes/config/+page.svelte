@@ -2,6 +2,7 @@
 	import { i18n } from '$lib/i18n';
 	import i18next from '$lib/i18n';
 	import { browser } from '$app/environment';
+	import { base } from '$app/paths';
 
 	let name = $state('');
 	let lang = $state('en');
@@ -18,14 +19,14 @@
 	});
 
 	function getGeneratedUrl() {
-		const baseUrl = browser ? window.location.origin : 'https://example.com';
+		const origin = browser ? window.location.origin : 'https://strehk.github.io';
 		const params = new URLSearchParams();
 		if (name.trim()) {
 			params.set('name', name.trim());
 		}
 		params.set('lang', lang);
 		const queryString = params.toString();
-		return `${baseUrl}/?${queryString}`;
+		return `${origin}${base}/?${queryString}`;
 	}
 
 	async function copyToClipboard() {
