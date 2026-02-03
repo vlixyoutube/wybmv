@@ -1,0 +1,34 @@
+{
+  "intro": {
+    "slide1": "Hey {{name}}",
+    "slide2": "Hab ich dir jemals gesagt, dass du mein Lieblingsmensch bist?",
+    "slide3": "Jeder Moment mit dir fühlt sich magisch an",
+    "slide4": "Ich muss dich etwas Wichtiges fragen...",
+    "tapToContinue": "Tippe um fortzufahren"
+  },
+  "question": {
+    "title": "Willst du mein Valentinsschatz sein?",
+    "yes": "Ja!",
+    "no": "Nein"
+  },
+  "success": {
+    "aww": "Aww!",
+    "iLoveYou": "Ich liebe dich",
+    "hearts": "Du machst mich so glücklich!"
+  },
+  "config": {
+    "title": "WYBMV Link Generator",
+    "nameLabel": "Name",
+    "namePlaceholder": "Gib den Namen ein...",
+    "languageLabel": "Sprache",
+    "linkLabel": "Dein personalisierter Link:",
+    "copyLink": "Link kopieren",
+    "copied": "Kopiert!",
+    "preview": "Vorschau"
+  },
+  "footer": {
+    "madeWith": "Gemacht mit",
+    "github": "GitHub: Strehk"
+  },
+  "defaultName": "du"
+}

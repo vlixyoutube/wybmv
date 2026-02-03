@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--bg-color: #FFF5F7;
+	--primary-color: #F9A8D4;
+	--accent-color: #EC4899;
+	--text-color: #831843;
+}
+
+.dark {
+	--bg-color: #1F1118;
+	--primary-color: #BE185D;
+	--accent-color: #F472B6;
+	--text-color: #FDF2F8;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	transition: background-color 0.3s ease, color 0.3s ease;
+	min-height: 100vh;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer components {
+	.btn-primary {
+		@apply px-8 py-4 rounded-full text-xl font-semibold transition-all duration-300;
+		@apply bg-valentine-light-accent text-white hover:bg-pink-600 hover:scale-105;
+		@apply dark:bg-valentine-dark-accent dark:text-valentine-dark-bg dark:hover:bg-pink-300;
+		@apply shadow-lg hover:shadow-xl;
+	}
+
+	.btn-secondary {
+		@apply px-8 py-4 rounded-full text-xl font-semibold transition-all duration-300;
+		@apply bg-valentine-light-primary text-valentine-light-text hover:bg-pink-400;
+		@apply dark:bg-valentine-dark-primary dark:text-valentine-dark-text dark:hover:bg-pink-800;
+		@apply shadow-md hover:shadow-lg;
+	}
+
+	.card {
+		@apply p-8 rounded-2xl;
+		@apply bg-white/50 dark:bg-white/5;
+		@apply backdrop-blur-sm;
+		@apply shadow-xl;
+	}
+}
+
+/* Floating hearts animation */
+@keyframes floatUp {
+	0% {
+		opacity: 1;
+		transform: translateY(0) translateX(0) scale(1);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-100vh) translateX(var(--drift, 0px)) scale(0.5);
+	}
+}
+
+.floating-heart {
+	position: fixed;
+	bottom: 0;
+	animation: floatUp var(--duration, 4s) ease-out forwards;
+	pointer-events: none;
+	font-size: var(--size, 2rem);
+	z-index: 9999;
+}
